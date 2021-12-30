@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/data_placeholder_layout" />
 
             <include layout="@layout/data_placeholder_layout" />
 
@@ -32,6 +31,9 @@
             <include layout="@layout/data_placeholder_layout" />
 
             <include layout="@layout/data_placeholder_layout" />
+
+            <include layout="@layout/data_placeholder_layout" />
+
         </LinearLayout>
 
     </com.facebook.shimmer.ShimmerFrameLayout>
@@ -43,5 +45,6 @@
         android:scrollbars="vertical"
         android:scrollingCache="true"
         android:visibility="gone" />
+
 
 </RelativeLayout>
